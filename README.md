@@ -200,7 +200,7 @@ PORT=5000
 
 ## 🌍 Live Demo
 
-[(Add deployed frontend link here)](https://hub-ops-task.vercel.app/services)
+https://hub-ops-task.vercel.app/services
 
 ---
 
