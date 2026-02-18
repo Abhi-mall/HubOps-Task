@@ -1,6 +1,4 @@
-"use Client";
 import ServiceCard from "@/components/ServiceCard";
-// import { useState } from "react";
 
 export const metadata = {
   title: "Our Services | HubOps",
@@ -25,7 +23,7 @@ const getServices = async () => {
 };
 
 export default async function Services() {
-  // const [data, setdata]= useState([]);
+
   const services = await getServices();
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 ">
