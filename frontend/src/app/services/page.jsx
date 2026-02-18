@@ -8,7 +8,7 @@ export const metadata = {
 
 const getServices = async () => {
   try {
-    const res = await fetch("http://localhost:4000/api/services");
+    const res = await fetch("https://hubops-task-1.onrender.com/api/services");
 
     if (!res.ok) {
       throw new Error("Failed to fetch services");
