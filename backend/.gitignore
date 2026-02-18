@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+/jspm_packages/
+
+# Production
+/build/
+/dist/
+/tmp/
+
+# Logs and databases
+*.log
+npm-debug.log*
+.npm/*.log
+
+# Environment variables
+.env*
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+/coverage/
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
